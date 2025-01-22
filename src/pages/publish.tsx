@@ -1,8 +1,8 @@
 import { Header } from "../components/Header";
 import axios from "axios";
-import { BACKEND_URL } from "../../config";
 import { useNavigate } from "react-router-dom";
 import { ChangeEvent, useState } from "react";
+import { BACKEND_URL } from "../../config";
 
 export const Publish = () => {
   const [title, setTitle] = useState("");
